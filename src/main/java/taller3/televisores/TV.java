@@ -55,7 +55,7 @@ public class TV {
 		return control;
 	}
 	
-	public void setContro(Control control) {
+	public void setControl(Control control) {
 		this.control=control;
 	}
 	
