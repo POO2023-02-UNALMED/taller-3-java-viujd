@@ -73,5 +73,21 @@ public class TV {
 	public boolean gestEstado() {
 		return estado;
 	}
+	
+	public void canalUp() {
+		canal++;
+	}
+	
+	public void canalDown() {
+		canal--;
+	}
+	
+	public void volumenUp() {
+		volumen++;
+	}
+	
+	public void volumenDown() {
+		volumen--;
+	}
 
 }
