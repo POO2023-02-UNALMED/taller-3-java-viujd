@@ -74,7 +74,7 @@ public class TV {
 		this.estado=false;
 	}
 	
-	public boolean gestEstado() {
+	public boolean getEstado() {
 		return this.estado;
 	}
 	
