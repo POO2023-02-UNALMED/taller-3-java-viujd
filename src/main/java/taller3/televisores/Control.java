@@ -38,5 +38,18 @@ public class Control {
 		tv.setVolumen(volumen);
 	}
 	
+	public void enlazar(TV televisor) {
+		this.tv=televisor;
+		tv.setContro(this);
+	}
+	
+	public TV getTv() {
+		return tv;
+	}
+	
+	public void setTv(TV tv) {
+		this.tv=tv;
+	}
+	
 
 }
