@@ -42,14 +42,6 @@ public class TV {
 	    this.precio = precio;
 	}
 
-	public boolean getEstado() {
-	    return estado;
-	}
-
-	public void setEstado(boolean estado) {
-	    this.estado = estado;
-	}
-
 	public int getVolumen() {
 	    return volumen;
 	}
@@ -58,8 +50,28 @@ public class TV {
 		this.volumen=volumen;
 	}
 	
+	public Control getControl() {
+		return control;
+	}
+	
+	public void setContro(Control control) {
+		this.control=control;
+	}
+	
 	public static int getNumTV() {
 		return numTV;
+	}
+	
+	public void turnOn() {
+		estado=true;
+	}
+	
+	public void turnOff() {
+		estado=false;
+	}
+	
+	public boolean gestEstado() {
+		return estado;
 	}
 
 }
