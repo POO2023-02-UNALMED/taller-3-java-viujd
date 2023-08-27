@@ -19,7 +19,7 @@ public class Control {
 		tv.canalUp();
 	}
 	
-	public void canlDown() {
+	public void canalDown() {
 		tv.canalDown();
 	}
 	
